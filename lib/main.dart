@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:ikchatbot/ikchatbot.dart';
 import 'package:iktbot/chatqueries.dart';
+import 'package:iktbot/home.dart';
 
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home:  MyHomePage(),
     );
   }
 }
