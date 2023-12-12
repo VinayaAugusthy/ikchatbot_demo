@@ -5,7 +5,6 @@ import 'package:ikchatbot/ikchatbot.dart';
 import 'package:iktbot/chatqueries.dart';
 import 'package:iktbot/home.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -22,7 +21,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  MyHomePage(),
+      home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -33,8 +33,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
