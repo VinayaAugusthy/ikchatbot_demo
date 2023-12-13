@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:ikchatbot/ikchatbot.dart';
 import 'package:iktbot/chatqueries.dart';
-import 'package:iktbot/home.dart';
 
 void main() {
   runApp(const MyApp());

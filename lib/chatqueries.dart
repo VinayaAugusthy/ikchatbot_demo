@@ -26,7 +26,7 @@ final chatBotConfig = IkChatBotConfig(
   botIcon: const Icon(Icons.android, color: Colors.white),
   botChatColor: const Color.fromARGB(255, 81, 80, 80),
   delayBot: 100,
-  closingTime: 1,
+  closingTime: 0,
   delayResponse: 1,
   userChatColor: Colors.blue,
   waitingTime: 1,
@@ -43,15 +43,22 @@ final chatBotConfig = IkChatBotConfig(
 );
 
 final List<String> keywords = [
-  'hii',
+  //use only small letters for the questions
+  'hi',
+  'hello',
+  'i got a call but couldn\'t receive it',
   'why i am not getting call from astrologer',
-  'fuck',
-  'sorry'
+  'what is the minimum amount required to call an astrologer',
+  'can i call the astrologer for free',
+  'why wallet is not updating after recharge'
 ];
 
 final List<String> responses = [
-  'I am a bot',
+  'Hello, how can I help you?',
+  'Hi, how can I help you?',
+  'Don\'t worry you can resume your call anytime. We will give you first priority',
   '1.Check your network connection.\n 2. Astrologer may be busy due to heavy responses...pls wait',
-  'You are such an idiot to tell me this. you dont have future. Look for Iksoft Original and seek for knowledge. here is his number +233550138086. call him you lazy deep shit',
-  'Good! i have forgiven you. dont do that again!'
+  'The minimum amount varies according to the rate per minute charged by each astrologer. You should have a minute of balance that lets you talk for 5 minutes.',
+  'No, to call an astrologer, you have to recharge your wallet. You can chat with the astrologer for free.',
+  'It may due to technical reasons. If issue persist please contact our customer care.'
 ];
