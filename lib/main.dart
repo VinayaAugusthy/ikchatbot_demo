@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('ikChatBot Example'),
+        title: const Text('Sitare'),
       ),
       body: ikchatbot(config: chatBotConfig),
     );

@@ -43,14 +43,14 @@ final chatBotConfig = IkChatBotConfig(
 );
 
 final List<String> keywords = [
-  'who are you',
-  'why not getting call astrologer',
+  'hii',
+  'why i am not getting call from astrologer',
   'fuck',
   'sorry'
 ];
 
 final List<String> responses = [
-  'I am a bot created by Iksoft Original, a proud Ghanaian',
+  'I am a bot',
   '1.Check your network connection.\n 2. Astrologer may be busy due to heavy responses...pls wait',
   'You are such an idiot to tell me this. you dont have future. Look for Iksoft Original and seek for knowledge. here is his number +233550138086. call him you lazy deep shit',
   'Good! i have forgiven you. dont do that again!'
